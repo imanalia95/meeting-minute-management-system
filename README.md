@@ -142,17 +142,18 @@ The system is currently available through a temporary live demonstration environ
 
 ![Dashboard](screenshots/dashboard.png)
 
-### Meeting Management
+### Meeting Records
 
-![Meeting Management](screenshots/meeting-management.png)
+![Meeting Management](screenshots/Meeting Minute Records.png)
 
 ### Meeting Details
 
-![Meeting Details](screenshots/meeting-details.png)
+![Meeting Details](screenshots/Meeting Details.png)
+![Meeting Details](screenshots/Meeting Details Agenda.png)
 
-### Create Meeting
+### Action Reminder
 
-![Create Meeting](screenshots/create-meeting.png)
+![Create Meeting](screenshots/Action Reminder.png)
 
 ### Database Design
 
