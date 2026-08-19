@@ -126,8 +126,6 @@ http://127.0.0.1:8000
 - Add LLM summarizer to summarize meeting minutes
 - Enhance UI/UX
 
-
-
 ## Live Demo 
 
 **Temporary Live Demo:** Available upon request
@@ -144,7 +142,7 @@ The system is currently available through a temporary live demonstration environ
 
 ### Meeting Records
 
-![Meeting Management](screenshots/Meeting Minute Records.png)
+![Meeting Record](screenshots/Meeting Minute Records.png)
 
 ### Meeting Details
 
@@ -153,7 +151,7 @@ The system is currently available through a temporary live demonstration environ
 
 ### Action Reminder
 
-![Create Meeting](screenshots/Action Reminder.png)
+![Action Reminder](screenshots/Action Reminder.png)
 
 ### Database Design
 
