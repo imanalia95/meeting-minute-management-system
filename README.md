@@ -142,16 +142,16 @@ The system is currently available through a temporary live demonstration environ
 
 ### Meeting Records
 
-![Meeting Record](screenshots/Meeting Minute Records.png)
+![Meeting Record](screenshots/MeetingMinuteRecords.png)
 
 ### Meeting Details
 
-![Meeting Details](screenshots/Meeting Details.png)
-![Meeting Details](screenshots/Meeting Details Agenda.png)
+![Meeting Details](screenshots/MeetingDetails.png)
+![Meeting Details](screenshots/MeetingDetailsAgenda.png)
 
 ### Action Reminder
 
-![Action Reminder](screenshots/Action Reminder.png)
+![Action Reminder](screenshots/ActionReminder.png)
 
 ### Database Design
 
