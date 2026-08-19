@@ -1,59 +1,129 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# As-Salam Meeting Minute Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A simple web-based meeting minute management system developed using Laravel to help organizations record, manage, track, and organize meeting minutes and follow-up actions.
 
-## About Laravel
+## Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The As-Salam Meeting Minute Management System is a web-based application designed to simplify the process of managing meeting minutes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The system allows users to record meeting information, document discussions and decisions, manage action items, and keep track of important follow-up dates.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The system was developed using the Laravel framework with a MySQL database.
 
-## Learning Laravel
+## Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- Create and manage meeting records
+- Record meeting minutes
+- Record decisions and action items
+- Track action taken as well as deadline
+- Edit and delete meeting records
+- Search and view meeting records
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Technology Stack
 
-## Laravel Sponsors
+- **Framework:** Laravel
+- **Backend:** PHP
+- **Frontend:** Blade Templates, HTML, CSS, JavaScript
+- **CSS/UI:** Bootstrap, Tailwind CSS
+- **Database:** MySQL
+- **Build Tool:** Vite
+- **Development Environment:** XAMPP
+- **Version Control:** Git / GitHub
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Database Design
 
-### Premium Partners
+The system uses a MySQL relational database.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+The database structure was designed using an Entity Relationship Diagram (ERD).
 
-## Contributing
+## Requirements
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Before running the project, make sure the following are installed:
 
-## Code of Conduct
+- PHP
+- Composer
+- Node.js and npm
+- MySQL
+- XAMPP
+- Git
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Installation & Setup
 
-## Security Vulnerabilities
+### 1. Clone the repository
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+git clone YOUR_REPOSITORY_URL
 
-## License
+cd your-project-folder
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 2. Install PHP dependencies
+
+composer install
+
+### 3. Create the environment file
+
+Copy `.env.example` to `.env`.
+
+### 4. Generate the application key
+
+php artisan key:generate
+
+### 5. Configure the database
+
+Open the `.env` file and configure the MySQL database:
+
+DB_DATABASE=as_salam_meeting
+DB_USERNAME=root
+DB_PASSWORD=
+
+### 6. Run database migrations
+
+php artisan migrate
+
+### 7. Install frontend dependencies
+
+npm install
+
+### 8. Build frontend assets
+
+npm run build
+
+### 9. Start the Laravel development server
+
+php artisan serve
+
+### 10. Create Laravel runtime directories
+
+If the `storage` directories are not present after cloning, create the required Laravel runtime directories before starting the application.
+
+Using git create:
+mkdir -p storage/framework/cache
+mkdir -p storage/framework/sessions
+mkdir -p storage/framework/views
+mkdir -p storage/logs
+
+## Running the Application
+
+After starting the Laravel development server, open:
+
+http://127.0.0.1:8000
+
+## Project Structure
+
+---text
+app/          Application logic
+bootstrap/    Laravel framework bootstrap files
+config/       Application configuration
+database/     Migrations and database-related files
+public/       Publicly accessible files
+resources/    Views and frontend resources
+routes/       Application routes
+tests/        Automated tests
+---
+
+## Future Improvements
+
+- Add audio automated meeting transcription
+- Improve meeting reminder and notification functionality
+- Add role-based access control
+- Add LLM summarizer to summarize meeting minutes
+- Enhance UI/UX
