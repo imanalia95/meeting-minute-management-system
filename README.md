@@ -96,10 +96,10 @@ php artisan serve
 If the `storage` directories are not present after cloning, create the required Laravel runtime directories before starting the application.
 
 Using git create:
-mkdir -p storage/framework/cache
-mkdir -p storage/framework/sessions
-mkdir -p storage/framework/views
-mkdir -p storage/logs
+- mkdir -p storage/framework/cache
+- mkdir -p storage/framework/sessions
+- mkdir -p storage/framework/views
+- mkdir -p storage/logs
 
 ## Running the Application
 
@@ -109,16 +109,14 @@ http://127.0.0.1:8000
 
 ## Project Structure
 
----text
-app/          Application logic
-bootstrap/    Laravel framework bootstrap files
-config/       Application configuration
-database/     Migrations and database-related files
-public/       Publicly accessible files
-resources/    Views and frontend resources
-routes/       Application routes
-tests/        Automated tests
----
+- app/          Application logic
+- bootstrap/    Laravel framework bootstrap files
+- config/       Application configuration
+- database/     Migrations and database-related files
+- public/       Publicly accessible files
+- resources/    Views and frontend resources
+- routes/       Application routes
+- tests/        Automated tests
 
 ## Future Improvements
 
