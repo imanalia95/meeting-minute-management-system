@@ -125,3 +125,36 @@ http://127.0.0.1:8000
 - Add role-based access control
 - Add LLM summarizer to summarize meeting minutes
 - Enhance UI/UX
+
+
+
+## Live Demo 
+
+**Temporary Live Demo:** Available upon request
+
+The system is currently available through a temporary live demonstration environment. The application is hosted locally and exposed through a temporary HTTPS tunnel for testing and demonstration purposes.
+
+> **Note:** The demo server is not permanently online and may be unavailable when the development environment is offline. If you encounter any issues accessing the system or notice unexpected behavior, please contact me and I will restart the demo environment.
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Meeting Management
+
+![Meeting Management](screenshots/meeting-management.png)
+
+### Meeting Details
+
+![Meeting Details](screenshots/meeting-details.png)
+
+### Create Meeting
+
+![Create Meeting](screenshots/create-meeting.png)
+
+### Database Design
+
+![Database ERD](screenshots/erd.png)
+
