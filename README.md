@@ -144,10 +144,14 @@ The system is currently available through a temporary live demonstration environ
 
 ![Meeting Record](screenshots/MeetingMinuteRecords.png)
 
-### Meeting Details
+### Create Meeting Details
 
 ![Meeting Details](screenshots/MeetingDetails.png)
+![Meeting Details](screenshots/MeetingAttendees.png)
 ![Meeting Details](screenshots/MeetingDetailsAgenda.png)
+![Meeting Details](screenshots/TindakanSusulan.png)
+![Meeting Details](screenshots/Conclusion.png)
+
 
 ### Action Reminder
 
